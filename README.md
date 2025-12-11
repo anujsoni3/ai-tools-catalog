@@ -84,10 +84,10 @@ GOOGLE_API_KEY=your_api_key_here
 - Store chat history in local storage or Supabase for continuity
 
 ## 📽 Loom Walkthrough
-[Watch Walkthrough](https://loom.com/share/your-link-here)
+[Watch Walkthrough](https://www.loom.com/share/883a610135944a71b562ffda896cf21c)
 
 ## 🌐 Live Site
-[Visit Live App](https://your-vercel-link.vercel.app)
+[Visit Live App](https://ai-tools-catalog-xi.vercel.app/)
 
 ## 🧑‍💻 Author
 - **Anuj Soni**
