@@ -25,6 +25,9 @@ A beautifully crafted, searchable catalog of 30+ AI tools, designed with Next.js
 - **Dataset file**: [`/data/ai-tools.json`](./data/ai-tools.json)
 
 ---
+## 🖼 Preview
+![AI Tools Catalog Screenshot](./public/images/Screenshot.png)
+
 
 ## 💬 Chatbot Integration
 
