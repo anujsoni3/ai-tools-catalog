@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 AI Tools Catalog
 
-## Getting Started
+A beautifully crafted, searchable catalog of 30+ AI tools, designed with Next.js and Tailwind CSS. Users can explore tools by category, pricing, or use case. A conversational chatbot assistant is integrated using Google Gemini API for guided tool recommendations.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- 🗂️ Browse 30+ AI tools with search, filters, and sort options  
+- 🧵 Categories like writing, image generation, dev tools, marketing, and more  
+- 💬 Chatbot built with Gemini API to recommend tools or answer catalog queries  
+- ⚡ Lightning-fast static site built with Next.js 14  
+- 🎨 Fully responsive UI with Tailwind CSS  
+- 🔍 Tools sorted by rating, pricing model, or category  
+- 🔗 Link to each tool's official website  
+- 🧪 Manual and AI-assisted data curation  
+- ☁️ Deployed on Vercel
+
+---
+
+## 📊 Dataset
+
+- **Source**: Curated using publicly available AI tool listings (e.g., Product Hunt, There’s An AI For That)  
+- **Generated**: Tool entries were manually selected and described, while JSON structuring was assisted using generative AI (ChatGPT / Gemini)  
+- **Includes Fields**:  
+  - Name  
+  - Slug  
+  - Category  
+  - Pricing  
+  - Rating  
+  - Short description  
+  - Tags  
+  - Use cases  
+  - Website URL
+
+---
+
+## 💬 Chatbot Integration
+
+- **Model Used**: Google Gemini (via `@google/generative-ai`)  
+- **API Key**: Secured using environment variables  
+- **Functionality**:  
+  - Answers questions about this catalog  
+  - Recommends tools based on user needs  
+  - Uses conversational context  
+- **Limitations**: Only supports tool-related queries
+
+---
+
+## 🛠️ Stack
+
+- **Frontend**: Next.js 14 (App Router, client/server components)  
+- **Styling**: Tailwind CSS  
+- **State Management**: React `useState`  
+- **Data**: Static JSON file (`/data/ai-tools.json`)  
+- **AI API**: Google Gemini API via `@google/generative-ai`
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+git clone https://github.com/YOUR_USERNAME/ai-tools-catalog.git
+cd ai-tools-catalog
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+# Make sure to add your Gemini API key in a .env.local file:
+```bash
+GOOGLE_API_KEY=your_api_key_here
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📽 Loom Walkthrough
+[Watch Walkthrough](https://loom.com/share/your-link-here)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Live Site
+[Visit Live App](https://your-vercel-link.vercel.app)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧑‍💻 Author
+- **Anuj Soni**
+Software Developer, problem solver, and AI enthusiast.
 
-## Learn More
+## 📄 License
+---
 
-To learn more about Next.js, take a look at the following resources:
+Would you like this saved to a file or automatically added to your GitHub repo?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
