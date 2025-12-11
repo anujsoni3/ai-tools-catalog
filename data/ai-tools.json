@@ -1,0 +1,738 @@
+[
+  {
+    "id": "tool-1",
+    "name": "GitHub Copilot",
+    "slug": "github-copilot",
+    "category": "Developer Tools",
+    "tags": [
+      "code",
+      "pair programming",
+      "AI"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "AI pair programmer that suggests code and entire functions.",
+    "longDescription": "GitHub Copilot, powered by OpenAI, provides context-aware code completions and suggestions directly in your IDE, helping developers write code faster and learn new languages by example.",
+    "website": "https://github.com/features/copilot",
+    "rating": 4.6,
+    "useCases": [
+      "Accelerate coding tasks",
+      "Learn new programming languages",
+      "Improve code consistency"
+    ],
+    "featured": true,
+    "launchedYear": 2022
+  },
+  {
+    "id": "tool-2",
+    "name": "Graphite",
+    "slug": "graphite",
+    "category": "Developer Tools",
+    "tags": [
+      "code review",
+      "AI",
+      "GitHub"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "AI-powered code review platform for teams.",
+    "longDescription": "Graphite uses AI to analyze pull requests and provide actionable code review suggestions, helping teams catch bugs and enforce best practices before code is merged.",
+    "website": "https://graphite.com",
+    "rating": 4.7,
+    "useCases": [
+      "Automate code reviews",
+      "Enforce code standards",
+      "Reduce bugs pre-release"
+    ],
+    "featured": false,
+    "launchedYear": 2022
+  },
+  {
+    "id": "tool-3",
+    "name": "Replit Ghostwriter",
+    "slug": "replit-ghostwriter",
+    "category": "Developer Tools",
+    "tags": [
+      "code assistant",
+      "IDE",
+      "autocomplete"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "AI assistant for coding inside Replit IDE.",
+    "longDescription": "Ghostwriter is Replit’s AI pair programmer that helps write, explain, and debug code in real time within the Replit development environment, supporting many languages.",
+    "website": "https://replit.com",
+    "rating": 4.4,
+    "useCases": [
+      "Generate code snippets",
+      "Understand legacy code",
+      "Fix bugs automatically"
+    ],
+    "featured": false,
+    "launchedYear": 2021
+  },
+  {
+    "id": "tool-4",
+    "name": "Tabnine",
+    "slug": "tabnine",
+    "category": "Developer Tools",
+    "tags": [
+      "code completion",
+      "AI",
+      "IDE"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "AI-driven code completions and assistant.",
+    "longDescription": "Tabnine offers AI-powered code suggestions and chat support within multiple IDEs, allowing developers to write faster code with context-sensitive completions that adapt to their codebase.",
+    "website": "https://www.tabnine.com",
+    "rating": 4.5,
+    "useCases": [
+      "Autocompletion for coding",
+      "Onboard new developers",
+      "Increase code consistency"
+    ],
+    "featured": false,
+    "launchedYear": 2019
+  },
+  {
+    "id": "tool-5",
+    "name": "Aider",
+    "slug": "aider",
+    "category": "Developer Tools",
+    "tags": [
+      "AI assistant",
+      "terminal",
+      "code"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "AI terminal assistant for coding tasks.",
+    "longDescription": "Aider provides an AI interface directly in the terminal to generate, refactor, and explain code on the fly. It understands natural language commands to interact with the codebase and version control.",
+    "website": "https://aider.chat",
+    "rating": 4.3,
+    "useCases": [
+      "Generate code from descriptions",
+      "Explain code snippets",
+      "Create commit messages"
+    ],
+    "featured": false,
+    "launchedYear": 2022
+  },
+  {
+    "id": "tool-6",
+    "name": "Windsurf",
+    "slug": "windsurf",
+    "category": "Developer Tools",
+    "tags": [
+      "AI IDE",
+      "collaboration",
+      "code"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "AI-enhanced collaborative IDE with intelligent features.",
+    "longDescription": "Windsurf is an AI-powered IDE that offers smart code suggestions, real-time collaboration, and contextual tools like 'Cascade' for memory of interactions, aiming to streamline team development workflows.",
+    "website": "https://windsurf.com",
+    "rating": 4.1,
+    "useCases": [
+      "Collaborative coding",
+      "Advanced code completion",
+      "Project management in IDE"
+    ],
+    "featured": false,
+    "launchedYear": 2023
+  },
+  {
+    "id": "tool-7",
+    "name": "Mintlify",
+    "slug": "mintlify",
+    "category": "Developer Tools",
+    "tags": [
+      "documentation",
+      "AI",
+      "developer"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "AI-powered documentation platform.",
+    "longDescription": "Mintlify is a documentation platform that uses AI to help developers create, update, and serve technical documentation. It offers features like context-aware content generation and self-updating knowledge bases.",
+    "website": "https://mintlify.com",
+    "rating": 4.5,
+    "useCases": [
+      "Auto-generate docs",
+      "Keep documentation up-to-date",
+      "Provide guided tutorials"
+    ],
+    "featured": false,
+    "launchedYear": 2021
+  },
+  {
+    "id": "tool-8",
+    "name": "Uizard",
+    "slug": "uizard",
+    "category": "Design",
+    "tags": [
+      "UI design",
+      "prototyping",
+      "AI"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "AI tool for UI/UX design and prototyping.",
+    "longDescription": "Uizard uses AI to transform sketches, mockups, and wireframes into high-fidelity designs. It accelerates the design process by auto-generating layouts, components, and editable prototypes from simple inputs.",
+    "website": "https://uizard.io",
+    "rating": 4.2,
+    "useCases": [
+      "Convert sketches to UI",
+      "Rapid prototyping",
+      "Collaborative design"
+    ],
+    "featured": false,
+    "launchedYear": 2020
+  },
+  {
+    "id": "tool-9",
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "category": "Chatbot Platform",
+    "tags": [
+      "chat",
+      "assistant",
+      "AI"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "Conversational AI assistant by OpenAI.",
+    "longDescription": "ChatGPT is a large language model chatbot capable of understanding and generating human-like text. It can answer questions, write essays and code, simulate conversation, and serve as a general AI assistant across many domains.",
+    "website": "https://chatgpt.com",
+    "rating": 4.8,
+    "useCases": [
+      "Answer questions",
+      "Generate content",
+      "Learn new topics"
+    ],
+    "featured": true,
+    "launchedYear": 2022
+  },
+  {
+    "id": "tool-10",
+    "name": "Jasper AI",
+    "slug": "jasper-ai",
+    "category": "Writing & Copy",
+    "tags": [
+      "content",
+      "marketing",
+      "AI"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "AI platform for creating marketing content.",
+    "longDescription": "Jasper AI provides AI-driven tools for writing blogs, ads, emails, and social media posts. It helps marketers generate high-quality, on-brand copy at scale and optimize content for SEO.",
+    "website": "https://www.jasper.ai",
+    "rating": 4.4,
+    "useCases": [
+      "Blog writing",
+      "Ad copy generation",
+      "SEO content creation"
+    ],
+    "featured": true,
+    "launchedYear": 2021
+  },
+  {
+    "id": "tool-11",
+    "name": "Copy.ai",
+    "slug": "copy-ai",
+    "category": "Writing & Copy",
+    "tags": [
+      "copywriting",
+      "content",
+      "AI"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "AI-powered copywriting assistant.",
+    "longDescription": "Copy.ai offers a suite of AI writing tools to help users generate marketing copy, social media content, product descriptions, and more. It aims to eliminate writer's block with instant creative suggestions.",
+    "website": "https://www.copy.ai",
+    "rating": 4.3,
+    "useCases": [
+      "Generate social media posts",
+      "Write product descriptions",
+      "Brainstorm marketing ideas"
+    ],
+    "featured": false,
+    "launchedYear": 2020
+  },
+  {
+    "id": "tool-12",
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "category": "Writing & Copy",
+    "tags": [
+      "grammar",
+      "writing",
+      "AI"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "AI writing assistant for grammar and style.",
+    "longDescription": "Grammarly uses AI to analyze and improve text by correcting grammar, suggesting style improvements, and ensuring clarity. It integrates into browsers and writing apps to enhance communication.",
+    "website": "https://www.grammarly.com",
+    "rating": 4.5,
+    "useCases": [
+      "Proofreading emails",
+      "Improving content clarity",
+      "Checking grammar"
+    ],
+    "featured": true,
+    "launchedYear": 2009
+  },
+  {
+    "id": "tool-13",
+    "name": "Notion AI",
+    "slug": "notion-ai",
+    "category": "Productivity",
+    "tags": [
+      "notes",
+      "organization",
+      "AI"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "AI assistant integrated into Notion workspace.",
+    "longDescription": "Notion AI extends the Notion note-taking and project management platform with AI capabilities, helping users write, brainstorm, and organize information by generating summaries, to-do lists, and content suggestions.",
+    "website": "https://www.notion.com",
+    "rating": 4.2,
+    "useCases": [
+      "Summarize notes",
+      "Generate task lists",
+      "Draft documents"
+    ],
+    "featured": false,
+    "launchedYear": 2023
+  },
+  {
+    "id": "tool-14",
+    "name": "Sudowrite",
+    "slug": "sudowrite",
+    "category": "Writing & Copy",
+    "tags": [
+      "fiction",
+      "creative writing",
+      "AI"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "AI writing companion for fiction authors.",
+    "longDescription": "Sudowrite is tailored for creative writers, offering AI-driven story and character development tools. It can help generate descriptions, continue story passages, and suggest edits to improve narrative flow.",
+    "website": "https://www.sudowrite.com",
+    "rating": 4.3,
+    "useCases": [
+      "Story ideation",
+      "Scene expansion",
+      "Character development"
+    ],
+    "featured": false,
+    "launchedYear": 2020
+  },
+  {
+    "id": "tool-15",
+    "name": "Wordtune",
+    "slug": "wordtune",
+    "category": "Writing & Copy",
+    "tags": [
+      "writing",
+      "paraphrasing",
+      "AI"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "AI tool for rewriting and paraphrasing text.",
+    "longDescription": "Wordtune helps users improve their writing by suggesting alternative phrasings and tones. It can rephrase sentences for clarity, change the style (formal/casual), and offer grammar corrections on the fly.",
+    "website": "https://www.wordtune.com",
+    "rating": 4.7,
+    "useCases": [
+      "Paraphrase emails",
+      "Improve sentence tone",
+      "Check grammar"
+    ],
+    "featured": true,
+    "launchedYear": 2019
+  },
+  {
+    "id": "tool-16",
+    "name": "Descript",
+    "slug": "descript",
+    "category": "Audio & Speech",
+    "tags": [
+      "podcasts",
+      "transcription",
+      "video"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "AI-powered audio/video editor and transcription tool.",
+    "longDescription": "Descript allows users to edit video and audio by editing text. It provides automatic transcription, text-to-speech overdubbing, and AI-generated content (including images and video) to streamline media creation.",
+    "website": "https://www.descript.com",
+    "rating": 4.4,
+    "useCases": [
+      "Transcribe interviews",
+      "Edit podcasts via text",
+      "Generate video thumbnails"
+    ],
+    "featured": false,
+    "launchedYear": 2017
+  },
+  {
+    "id": "tool-17",
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "category": "Audio & Speech",
+    "tags": [
+      "tts",
+      "voice cloning",
+      "AI"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "Advanced AI text-to-speech and voice cloning.",
+    "longDescription": "ElevenLabs provides high-quality, natural-sounding AI voices. It allows users to generate voiceovers from text, clone voices for characters, and even convert audio into different languages with the same voice.",
+    "website": "https://elevenlabs.io",
+    "rating": 4.5,
+    "useCases": [
+      "Create audiobooks",
+      "Generate voiceovers",
+      "Clone a custom voice"
+    ],
+    "featured": false,
+    "launchedYear": 2022
+  },
+  {
+    "id": "tool-18",
+    "name": "DALL·E",
+    "slug": "dall-e",
+    "category": "Image Generation",
+    "tags": [
+      "text-to-image",
+      "AI art",
+      "creativity"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "OpenAI\u2019s text-to-image generation model.",
+    "longDescription": "DALL\u00b7E can create original, high-quality images from textual descriptions. It\u2019s used for generating concept art, storyboarding, or any application needing creative visual content from prompts.",
+    "website": "https://openai.com/product/dall-e-2",
+    "rating": 4.7,
+    "useCases": [
+      "Concept art generation",
+      "Marketing imagery",
+      "Creative exploration"
+    ],
+    "featured": true,
+    "launchedYear": 2021
+  },
+  {
+    "id": "tool-19",
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "category": "Image Generation",
+    "tags": [
+      "AI art",
+      "text-to-image",
+      "creative"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "Community-driven AI art generator.",
+    "longDescription": "Midjourney generates striking and artistic images from text prompts, known for its unique style. It\u2019s popular among designers and artists for quickly exploring visual ideas.",
+    "website": "https://www.midjourney.com",
+    "rating": 4.8,
+    "useCases": [
+      "Generate concept art",
+      "Create unique visuals",
+      "Inspire creative design"
+    ],
+    "featured": true,
+    "launchedYear": 2022
+  },
+  {
+    "id": "tool-20",
+    "name": "Stable Diffusion",
+    "slug": "stable-diffusion",
+    "category": "Image Generation",
+    "tags": [
+      "text-to-image",
+      "open-source",
+      "AI"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "Open-source generative image model.",
+    "longDescription": "Stable Diffusion is a latent text-to-image diffusion model known for high-quality image generation. Tools like DreamStudio provide user-friendly access to Stable Diffusion for creating images.",
+    "website": "https://stability.ai/",
+    "rating": 4.5,
+    "useCases": [
+      "Custom artwork creation",
+      "Concept visualization",
+      "Experimenting with AI art"
+    ],
+    "featured": false,
+    "launchedYear": 2022
+  },
+  {
+    "id": "tool-21",
+    "name": "Canva",
+    "slug": "canva",
+    "category": "Image Generation",
+    "tags": [
+      "design",
+      "graphics",
+      "AI"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "Graphic design platform with AI tools.",
+    "longDescription": "Canva is a design tool that includes AI features like text-to-image generation and Magic Design. It helps marketers and individuals create visual content and marketing materials quickly.",
+    "website": "https://www.canva.com",
+    "rating": 4.6,
+    "useCases": [
+      "Create social media graphics",
+      "Design presentations",
+      "Auto-generate images"
+    ],
+    "featured": true,
+    "launchedYear": 2013
+  },
+  {
+    "id": "tool-22",
+    "name": "Runway ML",
+    "slug": "runway-ml",
+    "category": "Video",
+    "tags": [
+      "video",
+      "AI editing",
+      "generation"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "AI tools for video and image creation.",
+    "longDescription": "Runway ML provides a suite of AI models for editing and generating videos and images. Features include green screen removal, style transfer, and Gen-2 video generation, accessible through an easy interface.",
+    "website": "https://runwayml.com",
+    "rating": 4.3,
+    "useCases": [
+      "Generate AI videos",
+      "Edit clips with AI",
+      "Artistic video effects"
+    ],
+    "featured": false,
+    "launchedYear": 2021
+  },
+  {
+    "id": "tool-23",
+    "name": "Adobe Firefly",
+    "slug": "adobe-firefly",
+    "category": "Image Generation",
+    "tags": [
+      "generative AI",
+      "creative",
+      "Adobe"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "Adobe\u2019s suite of generative AI tools.",
+    "longDescription": "Adobe Firefly includes AI-driven tools for generating images, text effects, and video editing. Integrated into Adobe\u2019s ecosystem, it helps creative professionals and marketers rapidly produce visual content.",
+    "website": "https://www.adobe.com/products/firefly.html",
+    "rating": 4.2,
+    "useCases": [
+      "Generate marketing visuals",
+      "Edit images with AI",
+      "Design assets creation"
+    ],
+    "featured": false,
+    "launchedYear": 2023
+  },
+  {
+    "id": "tool-24",
+    "name": "Synthesia",
+    "slug": "synthesia",
+    "category": "Video",
+    "tags": [
+      "video",
+      "AI avatar",
+      "generators"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "AI-powered video generation with avatars.",
+    "longDescription": "Synthesia allows users to create videos by selecting AI avatars that speak provided text. It supports multiple languages and is used for training, marketing videos, and internal communications.",
+    "website": "https://www.synthesia.io",
+    "rating": 4.3,
+    "useCases": [
+      "Create tutorial videos",
+      "Generate AI presentations",
+      "Produce multilingual content"
+    ],
+    "featured": false,
+    "launchedYear": 2019
+  },
+  {
+    "id": "tool-25",
+    "name": "Perplexity AI",
+    "slug": "perplexity-ai",
+    "category": "Research",
+    "tags": [
+      "search",
+      "AI assistant",
+      "Q&A"
+    ],
+    "pricing": "Free",
+    "shortDescription": "AI-powered answer engine and research assistant.",
+    "longDescription": "Perplexity is an AI-driven search assistant that provides direct answers to questions by aggregating information from the web. It supports citations and summarization to help with research and fact-finding.",
+    "website": "https://www.perplexity.ai",
+    "rating": 4.4,
+    "useCases": [
+      "Quick factual answers",
+      "Topic summarization",
+      "Research assistance"
+    ],
+    "featured": false,
+    "launchedYear": 2023
+  },
+  {
+    "id": "tool-26",
+    "name": "QuillBot",
+    "slug": "quillbot",
+    "category": "Writing & Copy",
+    "tags": [
+      "paraphrasing",
+      "writing",
+      "AI"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "AI writing assistant for paraphrasing and summarizing.",
+    "longDescription": "QuillBot offers AI tools like a paraphraser, summarizer, and grammar checker. It helps users rewrite sentences in different styles, check for plagiarism, and improve vocabulary with synonyms.",
+    "website": "https://quillbot.com",
+    "rating": 4.7,
+    "useCases": [
+      "Paraphrase content",
+      "Summarize articles",
+      "Check grammar"
+    ],
+    "featured": false,
+    "launchedYear": 2017
+  },
+  {
+    "id": "tool-27",
+    "name": "Writesonic",
+    "slug": "writesonic",
+    "category": "Writing & Copy",
+    "tags": [
+      "AI writing",
+      "content",
+      "blogs"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "AI content generator for marketing and blogging.",
+    "longDescription": "Writesonic provides AI tools for generating blog posts, articles, product descriptions, and ad copy. It aims to produce SEO-friendly content and helps brainstorm ideas for marketers and creators.",
+    "website": "https://writesonic.com",
+    "rating": 4.3,
+    "useCases": [
+      "Write blog articles",
+      "Generate ad copy",
+      "Brainstorm marketing content"
+    ],
+    "featured": false,
+    "launchedYear": 2021
+  },
+  {
+    "id": "tool-28",
+    "name": "Pictory",
+    "slug": "pictory",
+    "category": "Video",
+    "tags": [
+      "video",
+      "editing",
+      "AI"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "AI video editing and summarization tool.",
+    "longDescription": "Pictory automates video editing tasks such as summarizing long videos into short clips, adding subtitles, and extracting highlights. It helps content creators quickly repurpose webinars or podcasts into social media videos.",
+    "website": "https://pictory.ai",
+    "rating": 4.2,
+    "useCases": [
+      "Generate video highlights",
+      "Add captions",
+      "Summarize webinars"
+    ],
+    "featured": false,
+    "launchedYear": 2022
+  },
+  {
+    "id": "tool-29",
+    "name": "Khanmigo",
+    "slug": "khanmigo",
+    "category": "Education",
+    "tags": [
+      "tutoring",
+      "AI assistant",
+      "learning"
+    ],
+    "pricing": "Paid",
+    "shortDescription": "AI tutor developed by Khan Academy.",
+    "longDescription": "Khanmigo is an AI learning assistant integrated into Khan Academy. It helps students with interactive tutoring, explanations of concepts, and personalized practice questions, serving as a digital tutor.",
+    "website": "https://khanmigo.ai",
+    "rating": 4.5,
+    "useCases": [
+      "Homework assistance",
+      "Personalized tutoring",
+      "Educational practice"
+    ],
+    "featured": false,
+    "launchedYear": 2023
+  },
+  {
+    "id": "tool-30",
+    "name": "Dialogflow",
+    "slug": "dialogflow",
+    "category": "Chatbot Platform",
+    "tags": [
+      "chatbot",
+      "NLP",
+      "Google Cloud"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "Google Cloud\u2019s conversational AI platform.",
+    "longDescription": "Dialogflow is a natural language understanding platform for building chatbots and voice agents. It allows developers to create conversational interfaces that integrate with Google Cloud services.",
+    "website": "https://cloud.google.com/dialogflow",
+    "rating": 4.0,
+    "useCases": [
+      "Customer support bots",
+      "Voice assistants",
+      "Interactive FAQ systems"
+    ],
+    "featured": false,
+    "launchedYear": 2016
+  },
+  {
+    "id": "tool-31",
+    "name": "Snyk Code",
+    "slug": "snyk-code",
+    "category": "Developer Tools",
+    "tags": [
+      "security",
+      "code review",
+      "AI"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "AI-driven static code analysis for security.",
+    "longDescription": "Snyk Code (formerly DeepCode) uses AI to scan source code for security vulnerabilities and quality issues. It provides actionable fix suggestions and integrates with development workflows for ongoing security.",
+    "website": "https://snyk.io/product/code-security",
+    "rating": 4.3,
+    "useCases": [
+      "Detect vulnerabilities",
+      "Automate code reviews",
+      "Ensure secure coding"
+    ],
+    "featured": false,
+    "launchedYear": 2020
+  },
+  {
+    "id": "tool-32",
+    "name": "OpenAI Playground",
+    "slug": "openai-playground",
+    "category": "Developer Tools",
+    "tags": [
+      "AI models",
+      "prototype",
+      "openai"
+    ],
+    "pricing": "Freemium",
+    "shortDescription": "Interactive platform to experiment with AI models.",
+    "longDescription": "The OpenAI Playground is a web-based interface for testing and experimenting with OpenAI\u2019s language models. Developers can enter prompts, adjust model parameters, and see the generated output in real time.",
+    "website": "https://platform.openai.com/playground",
+    "rating": 4.6,
+    "useCases": [
+      "Test GPT prompts",
+      "Explore model capabilities",
+      "Prototyping AI-powered apps"
+    ],
+    "featured": false,
+    "launchedYear": 2020
+  }
+]
