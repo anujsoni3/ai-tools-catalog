@@ -78,7 +78,6 @@ GOOGLE_API_KEY=your_api_key_here
 - Add pagination or infinite scroll on the listing page
 - Enhance the chatbot with keyword-based fallback recommendations
 - Connect the tool detail pages with auto-generated blog-style insights using AI
-- Add dark/light mode toggle and animations0
 - Store chat history in local storage or Supabase for continuity
 
 ## 📽 Loom Walkthrough
