@@ -79,10 +79,3 @@ GOOGLE_API_KEY=your_api_key_here
 ## 🧑‍💻 Author
 - **Anuj Soni**
 Software Developer, problem solver, and AI enthusiast.
-
-## 📄 License
----
-
-Would you like this saved to a file or automatically added to your GitHub repo?
-
-
