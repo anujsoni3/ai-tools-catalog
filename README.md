@@ -20,55 +20,66 @@ A beautifully crafted, searchable catalog of 30+ AI tools, designed with Next.js
 
 ## 📊 Dataset
 
-- **Source**: Curated using publicly available AI tool listings (e.g., Product Hunt, There’s An AI For That)  
-- **Generated**: Tool entries were manually selected and described, while JSON structuring was assisted using generative AI (ChatGPT / Gemini)  
-- **Includes Fields**:  
-  - Name  
-  - Slug  
-  - Category  
-  - Pricing  
-  - Rating  
-  - Short description  
-  - Tags  
-  - Use cases  
-  - Website URL
+- **Source**: Curated using publicly available AI tool listings (e.g., Product Hunt, There’s An AI For That)
+- **Generated**: Tool data (name, description, etc.) selected manually; JSON formatting and consistency assisted using AI tools like ChatGPT and Gemini.
+- **Dataset file**: [`/data/ai-tools.json`](./data/ai-tools.json)
 
 ---
 
 ## 💬 Chatbot Integration
 
-- **Model Used**: Google Gemini (via `@google/generative-ai`)  
-- **API Key**: Secured using environment variables  
-- **Functionality**:  
-  - Answers questions about this catalog  
-  - Recommends tools based on user needs  
-  - Uses conversational context  
-- **Limitations**: Only supports tool-related queries
+- **Model Used**: Google Gemini (via `@google/generative-ai`)
+- **API Key**: Secured via `.env.local`
+- **Capabilities**:
+  - Recommends tools based on queries (e.g., “Best free tools for designers”)
+  - Explains how the site works
+  - Uses conversational history to guide replies
 
 ---
 
-## 🛠️ Stack
+## 🛠️ Tech Stack & Design Inspiration
 
-- **Frontend**: Next.js 14 (App Router, client/server components)  
-- **Styling**: Tailwind CSS  
-- **State Management**: React `useState`  
-- **Data**: Static JSON file (`/data/ai-tools.json`)  
-- **AI API**: Google Gemini API via `@google/generative-ai`
+- **Tech Stack**:
+  - [Next.js 14](https://nextjs.org/) – App Router, dynamic routes, API routes
+  - [Tailwind CSS](https://tailwindcss.com/) – UI styling
+  - [Google Gemini API](https://ai.google.dev/) – chat assistant
+  - [Vercel](https://vercel.com/) – deployment
+- **Design Inspiration**:
+  - Clean, compact cards inspired by Product Hunt
+  - Glassy UI and assistant drawer inspired by shadcn/ui, Raycast aesthetic
+
+---
+
+## 🤖 AI Prompts Used
+
+Here are a few examples of prompts used to assist with structuring and curating data:
+
+1. `Format this list of tools into consistent JSON objects including fields like name, category, tags, pricing, rating, description, and use cases.`
+2. `Write 1–2 line descriptions for these AI tools in a tone suitable for a product catalog.`
+3. `Generate categories and relevant tags for a tool like Midjourney.`
 
 ---
 
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-tools-catalog.git
+git clone https://github.com/anujsoni3/ai-tools-catalog.git
 cd ai-tools-catalog
 npm install
 npm run dev
+
 ```
 # Make sure to add your Gemini API key in a .env.local file:
 ```bash
 GOOGLE_API_KEY=your_api_key_here
 ```
+## 🔧 What Would I Improve With 2 More Days?
+
+- Add pagination or infinite scroll on the listing page
+- Enhance the chatbot with keyword-based fallback recommendations
+- Connect the tool detail pages with auto-generated blog-style insights using AI
+- Add dark/light mode toggle and animations0
+- Store chat history in local storage or Supabase for continuity
 
 ## 📽 Loom Walkthrough
 [Watch Walkthrough](https://loom.com/share/your-link-here)
